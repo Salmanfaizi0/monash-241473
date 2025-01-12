@@ -1,106 +1,5 @@
-/* Responsiveness */
+/* Styles for Monash University website */
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  .header-container,
-  .nav-bar-container,
-  .hero-container,
-  .make-change-container,
-  .rankings-container,
-  .impact-2030-container,
-  .latest-news-container,
-  .footer-container {
-    max-width: 90%; 
-    padding: 10px; 
-  }
-  nav ul {
-    display: none;
-  }
-
-  .header-right {
-    flex-direction: column; 
-    align-items: flex-end;
-  }
-  .header-right a {
-    margin: 5px 0;
-  }
-  .nav-bar ul {
-    flex-direction: column; 
-    align-items: center;
-  }
-
-  .nav-bar li {
-    margin: 10px 0; 
-  }
-  .apply-button {
-    margin: 10px auto; 
-    display: block; 
-  }
-  .hero-content {
-    text-align: center;
-  }
-
-  .search-bar {
-    flex-direction: column; 
-    align-items: center;
-  }
-  .search-bar input[type="text"] {
-    width: 100%; 
-    margin-bottom: 10px;
-  }
-  .features {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .feature {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .change-text-image {
-    flex-direction: column;
-  }
-  .change-image {
-    margin-top: 20px;
-  }
-
-  .ranking-boxes {
-    flex-direction: column;
-    align-items: center;
-  }
-  .ranking-box {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .impact-2030-container {
-    flex-direction: column;
-  }
-  .impact-image {
-    margin-top: 20px;
-  }
-  .latest-news-container {
-    flex-direction: column;
-  }
-  .news-image {
-    margin-bottom: 20px; 
-  }
-  .footer-links {
-    flex-direction: column; 
-    align-items: center;
-  }
-  .links-column {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .footer-logos {
-    flex-direction: column; 
-    align-items: center;
-  }
-  .footer-logos p {
-    margin-bottom: 10px;
-  }
-}
 header {
   background-color: #006DAE;
   color: white;
@@ -110,7 +9,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 100;
-  white-space: nowrap;
+  white-space: nowrap; 
 }
 
 .header-container {
@@ -138,7 +37,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: inline-flex;
+  display: inline-flex; 
   margin-right: auto;
 }
 
@@ -156,7 +55,7 @@ nav a {
 .header-right {
   display: flex;
   align-items: center;
-  white-space: nowrap;
+  white-space: nowrap; 
 }
 
 .header-right a {
@@ -173,7 +72,7 @@ nav a {
 
 .nav-bar {
   background-color: #FFFFFF;
-  margin-top: 50px;
+  margin-top: 50px; 
 }
 
 .nav-bar-container {
@@ -182,7 +81,7 @@ nav a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px 20px;
-  justify-content: flex-start;
+  justify-content: flex-start; 
 }
 
 .nav-bar ul {
@@ -213,88 +112,72 @@ nav a {
   font-size: 14px;
 }
 
-/* ... other CSS ... */
-
+/* Hero Section */
 .hero {
-  background-color: #F2F2F2; 
-  background-image: url("images/cover2.png"); 
-  background-size: cover; 
-  background-position: center; 
-  padding: 100px 20px; 
-  text-align: left; 
-  color: white; 
+  background-color: #F2F2F2;
+  background-image: url("images/cover2.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: left;
+  color: white;
 }
 
 .hero-container {
-  max-width: 1500px; 
-  margin: 0 auto; 
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
-.hero-content { 
-  max-width: 280px; 
-  padding: 20px; 
-  position: relative; /* Add relative positioning to the container */
-  top: -100px; /* Adjust the top value to move the content upward */
+.hero-content {
+  max-width: 280px;
+  padding: 20px;
+  position: relative; 
+  top: -100px; 
 }
 
 .hero h1 {
-  font-size: 30px; /* Increased font-size */
-  font-weight: bold; /* Added font-weight */
-  color: rgb(255, 255, 255); 
-  margin-bottom: 10px; /* Reduced margin-bottom */
-  line-height: 1; /* Reduced line-height */
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  line-height: 1;
 }
 
 .accent-link {
-  color: rgb(255, 255, 255); 
-  text-decoration: none; 
-  font-weight: normal; /* Changed to normal font-weight */
-  display: block; 
-  font-size: 18px; /* Increased font-size */
-  margin-top: 5px; /* Reduced mrgin-top */
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: normal;
+  display: block;
+  font-size: 18px;
+  margin-top: 5px;
 }
 
 .search-bar {
-  margin-top: 40px; 
-  display: flex; 
-  align-items: cennter; 
- 
-  /* Changed to left align */
-  justify-content: left;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left; 
 }
 
 .search-bar .search-icon {
   font-size: 20px;
-  margin-right: 500px;
-  
+  margin-right: 500px; 
 }
 
 .search-bar input[type="text"] {
   padding: 8px;
-  border: 1px solid #CCCCCC; 
-  border-radius: 4px; 
-  width: 400px; /* Increased width */
-  background-color: white; /* Added background color */
-  color: #333; /* Added text color */
-}
-.change-image {
-  flex: 1; /* Image takes less space */
-  margin-left: 40px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  width: 400px;
+  background-color: white;
+  color: #333;
 }
 
-.change-image img {
-  max-width: 100%;
-  height: auto;
-  transition: opacity 0.3s ease;
-}
-
-.change-image img:hover {
-  opacity: 0.8;
-}
 .search-bar button[type="submit"] {
-  /* Removed the search button */
-  display: none;
+  display: none; 
 }
+
+/* Make Change Section */
 .make-change {
   padding: 80px 20px;
   text-align: center;
@@ -306,7 +189,6 @@ nav a {
 }
 
 .make-change-heading {
-  /* New class to center the heading and paragraph */
   text-align: center;
   margin-bottom: 60px;
 }
@@ -330,19 +212,16 @@ nav a {
   margin-top: 60px;
 }
 
-/* ... (other CSS code) ... */
-
 .feature {
-  text-align: center; 
-  width: 25%; /* Reduced width */ 
-  padding: 20px; 
-  border: 1px solid #ddd; 
-  margin-bottom: 20px; 
-  transition: all 0.3s ease; 
-  position: relative; 
+  text-align: center;
+  width: 25%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
-/* ... (rest of the CSS code) ... */
 .feature img {
   width: 100px;
   height: 100px;
@@ -377,18 +256,18 @@ nav a {
 
 .change-content {
   margin-top: 80px;
-  border: 1px solid #ddd; /* Add border to the container */
-  padding: 40px; /* Add padding to the container */
+  border: 1px solid #ddd;
+  padding: 40px;
 }
 
 .change-text-image {
   display: flex;
-  align-items: center; 
-  justify-content: space-between; 
+  align-items: center;
+  justify-content: space-between;
 }
 
 .change-text {
-  flex: 2; /* Text takes more space */
+  flex: 2; 
   padding: 0 20px;
   text-align: left;
 }
@@ -405,6 +284,7 @@ nav a {
   color: #333333;
   margin-bottom: 20px;
 }
+
 .watch-videos {
   display: inline-block;
   background-color: #006DAE;
@@ -414,106 +294,73 @@ nav a {
   border-radius: 4px;
 }
 
-.change-content {
-margin-top: 80px;
-border: 1px solid #ddd; /* Add border to the container */
-padding: 40px; /* Add padding to the container */
+.change-image {
+  flex: 1;
+  margin-left: 40px;
 }
 
-.change-text-image {
-display: flex;
-align-items: center; 
-justify-content: space-between; 
+.change-image img {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
 }
 
-.change-text {
-flex: 2; /* Text takes more space */
-padding: 0 20px;
-text-align: left;
+.change-image img:hover {
+  opacity: 0.8;
 }
 
-.change-text h3 {
-font-size: 28px;
-color: #000000;
-margin-bottom: 15px;
-}
-
-.change-text p {
-font-size: 16px;
-line-height: 1.6;
-color: #333333;
-margin-bottom: 20px;
-}
 .feature img {
-  width: 80px; /* Reduced size */
-  height: 80px; /* Reduced size */
-  margin-bottom: 10px; 
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
 }
-/* ... (other CSS code) ... */
 
+/* Rankings Section */
 .rankings {
-  background-color: #002855; 
-  background-image: url("images/2.jpg"); 
+  background-color: #002855;
+  background-image: url("images/2.jpg");
   background-size: cover;
   background-position: center;
-  color: white; 
+  color: white;
   padding: 80px 20px;
   text-align: center;
-}/* ... (other CSS code) ... */
-
-/* ... (other CSS code) ... */
-.rankings-container {
-  max-width: 960px; 
-  margin: 0 auto;
-  padding: 0 20px; /* Add horizontal padding to the container */
 }
 
-/* ... (rest of the CSS code) ... */
+.rankings-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
-/* ... (rest of the CSS code) ... */
-
-/* ... (rest of the CSS code) ... */
 .ranking-boxes {
   display: flex;
-  gap: 10px; /* Add gap between the boxes */
-  margin-top: 40px; 
+  gap: 10px;
+  margin-top: 40px;
 }
-
-/* ... (rest of the CSS code) ... */
-/* ... (rest of the CSS code) ... */
-
-/* ... (other CSS code) ... */
 
 .ranking-box {
-  width: 22%;  /* Adjust width as needed */
-  background-color: rgba(0, 40, 85, 0.8); 
-  padding: 30px 20px; 
+  width: 22%;
+  background-color: rgba(0, 40, 85, 0.8);
+  padding: 30px 20px;
   text-align: center;
-}
-
-.ranking-box img {
-  width: 50px; 
-  height: 50px;
-  margin-bottom: 20px; 
 }
 
 .ranking-box p {
-  font-size: 13px; /* Reduce font size */
+  font-size: 13px;
   line-height: 1.4;
-  margin-bottom: 10px; /* Reduce margin-bottom */
+  margin-bottom: 10px;
 }
 
-.ranking-box p:first-of-type { 
-  font-size: 24px; /* Reduce font size */
+.ranking-box p:first-of-type {
+  font-size: 24px;
   font-weight: bold;
-  margin-bottom: 15px; /* Reduce margin-bottom */
+  margin-bottom: 15px;
 }
-/* ... (rest of the CSS code) ... */
-/* ... (rest of the CSS code) ... *//* ... other CSS ... */
 
+/* Impact 2030 Section */
 .impact-2030 {
   padding: 80px 20px;
-  text-align: center; /* Center the content */
+  text-align: center;
 }
 
 .impact-2030-container {
@@ -527,12 +374,12 @@ margin-bottom: 20px;
 .impact-text {
   flex: 1;
   padding: 0 20px;
-  text-align: left; /* Align text to the left */
+  text-align: left;
 }
 
 .impact-text h3 {
   font-size: 14px;
-  color: #006DAE; /* Monash blue color */
+  color: #006DAE;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -566,21 +413,22 @@ margin-bottom: 20px;
 .impact-image img {
   max-width: 100%;
   height: auto;
-  transition: opacity 0.3s ease; /* Add transition for smooth hover effect */
+  transition: opacity 0.3s ease;
 }
 
 .impact-image img:hover {
-  opacity: 0.8; /* Reduce opacity on hover */
-}/* ... other CSS ... */
+  opacity: 0.8;
+}
 
+/* Latest News Section */
 .latest-news {
   padding: 80px 20px;
-  text-align: center; /* Center the content */
-  transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+  text-align: center;
+  transition: transform 0.3s ease;
 }
 
 .latest-news:hover {
-  transform: translateY(-5px); /* Slightly move the section up on hover */
+  transform: translateY(-5px);
 }
 
 .latest-news-container {
@@ -589,14 +437,14 @@ margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f8f8f8; /* Light gray background color */
+  background-color: #f8f8f8;
   padding: 30px;
-  border: 1px solid #ddd; /* Add a subtle border */
+  border: 1px solid #ddd;
 }
 
 .news-image {
   flex: 1;
-  margin-right: 20px; /* Add some space between image and text */
+  margin-right: 20px;
 }
 
 .news-image img {
@@ -605,13 +453,13 @@ margin-bottom: 20px;
 }
 
 .news-text {
-  flex: 2; /* Text takes up more space than the image */
-  text-align: left; /* Align text to the left */
+  flex: 2;
+  text-align: left;
 }
 
 .news-text h3 {
   font-size: 14px;
-  color: #006DAE; /* Monash blue color */
+  color: #006DAE;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -626,11 +474,12 @@ margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.6;
   color: #333333;
-}/* ... other CSS ... */
+}
 
+/* Footer */
 footer {
-  background-color: #222222; /* Dark gray background color */
-  color: #ffffff; /* White text color */
+  background-color: #222222;
+  color: #ffffff;
   padding: 40px 20px;
 }
 
@@ -650,7 +499,7 @@ footer {
 }
 
 .social-media img {
-  width: 30px; /* Adjust icon size as needed */
+  width: 30px;
   height: 30px;
 }
 
@@ -666,7 +515,7 @@ footer {
 }
 
 .links-column {
-  width: 18%; /* Adjust width as needed */
+  width: 18%;
 }
 
 .links-column h4 {
@@ -684,7 +533,7 @@ footer {
 
 .footer-bottom {
   margin-top: 40px;
-  border-top: 1px solid #333333; /* Add a separator line */
+  border-top: 1px solid #333333;
   padding-top: 20px;
 }
 
@@ -700,7 +549,7 @@ footer {
 }
 
 .footer-logos img {
-  max-width: 100px; /* Adjust logo size as needed */
+  max-width: 100px;
   height: auto;
 }
 
@@ -713,21 +562,71 @@ footer {
 .footer-legal a {
   color: #ffffff;
   text-decoration: none;
-}/* ... other CSS ... */
+}
 
 .social-media img {
-  width: 180px; /* Adjust width as needed */
-  height: 30px;  /* Adjust height as needed */
+  width: 180px;
+  height: 30px;
 }
-/* ... other CSS ... */
 
 footer {
-  background-color: #262626; /* Slightly lighter dark gray */
-  color: #b3b3b3; /* Lighter gray for the text */
+  background-color: #262626;
+  color: #b3b3b3;
   padding: 40px 20px;
-  border-left: 1px solid white; /* Add white border on the left */
-  border-right: 1px solid white; /* Add white border on the right */
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
-/* ... rest of the CSS ... */
-/* ... rest of the CSS ... */
+/* ----------- Responsiveness ----------- */
+
+/* Media query for smaller screens (tablets and below) */
+@media (max-width: 768px) {
+  .header-container,
+  .nav-bar-container,
+  .hero-container,
+  .make-change-container,
+  .rankings-container,
+  .impact-2030-container,
+  .latest-news-container,
+  .footer-container {
+    max-width: 90%; 
+    padding: 10px; 
+  }
+
+  nav ul {
+    display: none; 
+  }
+
+  .header-right {
+    flex-direction: column; 
+    align-items: flex-end;
+  }
+
+  .header-right a {
+    margin: 5px 0; 
+  }
+
+  .nav-bar ul {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .nav-bar li {
+    margin: 10px 0; 
+  }
+
+  .apply-button {
+    margin: 10px auto; 
+    display: block; 
+  }
+
+  .hero-content {
+    text-align: center; 
+  }
+
+  .search-bar {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .search-bar input[type="text"] {
