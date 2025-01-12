@@ -1,4 +1,4 @@
-/* Styles for Monash University website */
+/* Basic styles for Monash University website */
 
 header {
   background-color: #006DAE;
@@ -580,7 +580,7 @@ footer {
 /* ----------- Responsiveness ----------- */
 
 /* Media query for smaller screens (tablets and below) */
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .header-container,
   .nav-bar-container,
   .hero-container,
@@ -589,7 +589,7 @@ footer {
   .impact-2030-container,
   .latest-news-container,
   .footer-container {
-    max-width: 90%; 
+    max-width: 95%; /* Adjust as needed */
     padding: 10px; 
   }
 
@@ -630,3 +630,71 @@ footer {
   }
 
   .search-bar input[type="text"] {
+    width: 100%; 
+    margin-bottom: 10px;
+  }
+
+  .features {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .feature {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .change-text-image {
+    flex-direction: column; 
+  }
+
+  .change-image {
+    margin-top: 20px; 
+  }
+
+  .ranking-boxes {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .ranking-box {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .impact-2030-container {
+    flex-direction: column; 
+  }
+
+  .impact-image {
+    margin-top: 20px; 
+  }
+
+  .latest-news-container {
+    flex-direction: column; 
+  }
+
+  .news-image {
+    margin-bottom: 20px; 
+  }
+
+  .footer-links {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .links-column {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .footer-logos {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .footer-logos p {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-widht: 900px )and (min-widht: 600px){}
