@@ -1,0 +1,630 @@
+header {
+  background-color: #006DAE;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  white-space: nowrap;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  margin-right: auto;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.header-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.search-icon {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-bar {
+  background-color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  justify-content: flex-start;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-bar li {
+  margin-right: 30px;
+}
+
+.nav-bar a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.apply-button {
+  background-color: #006DAE;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+/* ... other CSS ... */
+
+.hero {
+  background-color: #F2F2F2; 
+  background-image: url("images/cover2.png"); 
+  background-size: cover; 
+  background-position: center; 
+  padding: 100px 20px; 
+  text-align: left; 
+  color: white; 
+}
+
+.hero-container {
+  max-width: 1500px; 
+  margin: 0 auto; 
+}
+
+.hero-content { 
+  max-width: 280px; 
+  padding: 20px; 
+  position: relative; /* Add relative positioning to the container */
+  top: -100px; /* Adjust the top value to move the content upward */
+}
+
+.hero h1 {
+  font-size: 30px; /* Increased font-size */
+  font-weight: bold; /* Added font-weight */
+  color: rgb(255, 255, 255); 
+  margin-bottom: 10px; /* Reduced margin-bottom */
+  line-height: 1; /* Reduced line-height */
+}
+
+.accent-link {
+  color: rgb(255, 255, 255); 
+  text-decoration: none; 
+  font-weight: normal; /* Changed to normal font-weight */
+  display: block; 
+  font-size: 18px; /* Increased font-size */
+  margin-top: 5px; /* Reduced mrgin-top */
+}
+
+.search-bar {
+  margin-top: 40px; 
+  display: flex; 
+  align-items: cennter; 
+ 
+  /* Changed to left align */
+  justify-content: left;
+}
+
+.search-bar .search-icon {
+  font-size: 20px;
+  margin-right: 500px;
+  
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: 1px solid #CCCCCC; 
+  border-radius: 4px; 
+  width: 400px; /* Increased width */
+  background-color: white; /* Added background color */
+  color: #333; /* Added text color */
+}
+.change-image {
+  flex: 1; /* Image takes less space */
+  margin-left: 40px;
+}
+
+.change-image img {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.change-image img:hover {
+  opacity: 0.8;
+}
+.search-bar button[type="submit"] {
+  /* Removed the search button */
+  display: none;
+}
+.make-change {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.make-change-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.make-change-heading {
+  /* New class to center the heading and paragraph */
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.make-change h2 {
+  font-size: 48px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.make-change p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+/* ... (other CSS code) ... */
+
+.feature {
+  text-align: center; 
+  width: 25%; /* Reduced width */ 
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 20px; 
+  transition: all 0.3s ease; 
+  position: relative; 
+}
+
+/* ... (rest of the CSS code) ... */
+.feature img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+.feature-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  background-color: #006DAE;
+  transition: width 0.3s ease;
+}
+
+.feature:hover .feature-bar {
+  width: 100%;
+}
+
+.change-content {
+  margin-top: 80px;
+  border: 1px solid #ddd; /* Add border to the container */
+  padding: 40px; /* Add padding to the container */
+}
+
+.change-text-image {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.change-text {
+  flex: 2; /* Text takes more space */
+  padding: 0 20px;
+  text-align: left;
+}
+
+.change-text h3 {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.change-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.watch-videos {
+  display: inline-block;
+  background-color: #006DAE;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.change-content {
+margin-top: 80px;
+border: 1px solid #ddd; /* Add border to the container */
+padding: 40px; /* Add padding to the container */
+}
+
+.change-text-image {
+display: flex;
+align-items: center; 
+justify-content: space-between; 
+}
+
+.change-text {
+flex: 2; /* Text takes more space */
+padding: 0 20px;
+text-align: left;
+}
+
+.change-text h3 {
+font-size: 28px;
+color: #000000;
+margin-bottom: 15px;
+}
+
+.change-text p {
+font-size: 16px;
+line-height: 1.6;
+color: #333333;
+margin-bottom: 20px;
+}
+.feature img {
+  width: 80px; /* Reduced size */
+  height: 80px; /* Reduced size */
+  margin-bottom: 10px; 
+}
+/* ... (other CSS code) ... */
+
+.rankings {
+  background-color: #002855; 
+  background-image: url("images/2.jpg"); 
+  background-size: cover;
+  background-position: center;
+  color: white; 
+  padding: 80px 20px;
+  text-align: center;
+}/* ... (other CSS code) ... */
+
+/* ... (other CSS code) ... */
+.rankings-container {
+  max-width: 960px; 
+  margin: 0 auto;
+  padding: 0 20px; /* Add horizontal padding to the container */
+}
+
+/* ... (rest of the CSS code) ... */
+
+/* ... (rest of the CSS code) ... */
+
+/* ... (rest of the CSS code) ... */
+.ranking-boxes {
+  display: flex;
+  gap: 10px; /* Add gap between the boxes */
+  margin-top: 40px; 
+}
+
+/* ... (rest of the CSS code) ... */
+/* ... (rest of the CSS code) ... */
+
+/* ... (other CSS code) ... */
+
+.ranking-box {
+  width: 22%;  /* Adjust width as needed */
+  background-color: rgba(0, 40, 85, 0.8); 
+  padding: 30px 20px; 
+  text-align: center;
+}
+
+.ranking-box img {
+  width: 50px; 
+  height: 50px;
+  margin-bottom: 20px; 
+}
+
+.ranking-box p {
+  font-size: 13px; /* Reduce font size */
+  line-height: 1.4;
+  margin-bottom: 10px; /* Reduce margin-bottom */
+}
+
+.ranking-box p:first-of-type { 
+  font-size: 24px; /* Reduce font size */
+  font-weight: bold;
+  margin-bottom: 15px; /* Reduce margin-bottom */
+}
+/* ... (rest of the CSS code) ... */
+/* ... (rest of the CSS code) ... *//* ... other CSS ... */
+
+.impact-2030 {
+  padding: 80px 20px;
+  text-align: center; /* Center the content */
+}
+
+.impact-2030-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.impact-text {
+  flex: 1;
+  padding: 0 20px;
+  text-align: left; /* Align text to the left */
+}
+
+.impact-text h3 {
+  font-size: 14px;
+  color: #006DAE; /* Monash blue color */
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.impact-text h2 {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.impact-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.find-out-more {
+  display: inline-block;
+  background-color: #006DAE;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.impact-image {
+  flex: 1;
+}
+
+.impact-image img {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.impact-image img:hover {
+  opacity: 0.8; /* Reduce opacity on hover */
+}/* ... other CSS ... */
+
+.latest-news {
+  padding: 80px 20px;
+  text-align: center; /* Center the content */
+  transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.latest-news:hover {
+  transform: translateY(-5px); /* Slightly move the section up on hover */
+}
+
+.latest-news-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f8f8; /* Light gray background color */
+  padding: 30px;
+  border: 1px solid #ddd; /* Add a subtle border */
+}
+
+.news-image {
+  flex: 1;
+  margin-right: 20px; /* Add some space between image and text */
+}
+
+.news-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.news-text {
+  flex: 2; /* Text takes up more space than the image */
+  text-align: left; /* Align text to the left */
+}
+
+.news-text h3 {
+  font-size: 14px;
+  color: #006DAE; /* Monash blue color */
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.news-text h2 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.news-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+}/* ... other CSS ... */
+
+footer {
+  background-color: #222222; /* Dark gray background color */
+  color: #ffffff; /* White text color */
+  padding: 40px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px; /* Adjust icon size as needed */
+  height: 30px;
+}
+
+.acknowledgement {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-column {
+  width: 18%; /* Adjust width as needed */
+}
+
+.links-column h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.links-column a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid #333333; /* Add a separator line */
+  padding-top: 20px;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logos p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-logos img {
+  max-width: 100px; /* Adjust logo size as needed */
+  height: auto;
+}
+
+.footer-legal {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.footer-legal a {
+  color: #ffffff;
+  text-decoration: none;
+}/* ... other CSS ... */
+
+.social-media img {
+  width: 180px; /* Adjust width as needed */
+  height: 30px;  /* Adjust height as needed */
+}
+/* ... other CSS ... */
+
+footer {
+  background-color: #262626; /* Slightly lighter dark gray */
+  color: #b3b3b3; /* Lighter gray for the text */
+  padding: 40px 20px;
+  border-left: 1px solid white; /* Add white border on the left */
+  border-right: 1px solid white; /* Add white border on the right */
+}
+
+/* ... rest of the CSS ... */
+/* ... rest of the CSS ... */
